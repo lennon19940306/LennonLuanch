@@ -1,5 +1,7 @@
 include ':app'
-include ':LennonLib.mvp', ':LennonLib.nativelogger', ':LennonLib.utill', ':LennonLib.push', ':LennonLib.speech', ':LennonLib.zxing', ':LennonLib.record', ':LennonLib.xrecycler', ':voicerecorder', ':PhotoView', ':SubsamplingScaleImageView', ':app'
+include ':LennonLib.mvp', ':LennonLib.nativelogger', ':LennonLib.utill', ':LennonLib.push',
+        ':LennonLib.speech', ':LennonLib.zxing', ':LennonLib.record', ':LennonLib.xrecycler',
+        ':LennonLib.voicerecorder', ':LennonLib.PhotoView', ':LennonLib.SubsamplingScaleImageView'
 project(':LennonLib.mvp').projectDir = new File('../LennonLib/mvp')
 project(':LennonLib.nativelogger').projectDir = new File('../LennonLib/nativelogger')
 project(':LennonLib.utill').projectDir = new File('../LennonLib/utill')
@@ -8,3 +10,6 @@ project(':LennonLib.push').projectDir = new File('../LennonLib/push')
 project(':LennonLib.speech').projectDir = new File('../LennonLib/speech')
 project(':LennonLib.record').projectDir = new File('../LennonLib/record')
 project(':LennonLib.xrecycler').projectDir = new File('../LennonLib/xrecycler')
+project(':LennonLib.voicerecorder').projectDir = new File('../LennonLib/voicerecorder')
+project(':LennonLib.PhotoView').projectDir = new File('../LennonLib/PhotoView')
+project(':LennonLib.SubsamplingScaleImageView').projectDir = new File('../LennonLib/SubsamplingScaleImageView')
